@@ -1,0 +1,12 @@
+---
+name: "hello to develop branch"
+on:
+  push:
+    branches:
+      - main
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: "Hello to main branch"
+        run: echo "Hello to main branch"
