@@ -1,5 +1,5 @@
 ---
-name: "hello to develop branch"
+name: "hello to main branch"
 on:
   push:
     branches:
